@@ -55,3 +55,5 @@ while True:
 ```
 
 ## ディレクトリ構成
+
+- **ip-line-check** => IP, hostname監視
