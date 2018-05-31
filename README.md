@@ -1,4 +1,4 @@
-# .dot file appendixies
+# .(dot) file appendixies
 
 ## CRONでジョブ管理はめんどくさすぎる
 - 代替としてPythonで動作するもの
