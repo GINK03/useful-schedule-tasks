@@ -12,7 +12,7 @@ def push():
   for jpg in path.glob('*.jpg'):
     try:
       files   = { "imageFile": jpg.open('rb') }
-      payload = { "message": f'test' }
+      payload = { "message": f'from pixiv' }
       r = requests.post( url, headers=headers, params=payload, files=files)
     except Exception as ex:
       print(ex)
