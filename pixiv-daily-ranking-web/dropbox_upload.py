@@ -3,8 +3,6 @@ import time
 import datetime
 from pathlib import Path
 import re
-#app_key = '80h3ph7882ekn7z'
-#app_sec = '3fskntxbm4ug7wm'
 
 def dbx():
   dbx = dropbox.Dropbox(Path('token_dbx.txt').open().read().strip())
