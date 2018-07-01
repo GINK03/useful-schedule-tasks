@@ -14,10 +14,10 @@ def job():
   except Exception as ex:
     print(ex)
 
-schedule.every().day.at("10:30").do(job)
-schedule.every().day.at("15:00").do(job)
+#schedule.every().day.at("10:30").do(job)
+#schedule.every().day.at("15:00").do(job)
 
-schedule.every(1).hours.do(job)
+schedule.every(12).hours.do(job)
 
 job()
 while True:
